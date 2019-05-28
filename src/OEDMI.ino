@@ -48,37 +48,31 @@ int piezoPins[]{A14, A15};
 
 // Physical channels on the controller
 int trigger2MidiToneMap[] = {
-    //Channel 1.1 Snare
+    //Channel (Stereo) 1.1 Snare & Rim
     38,
-    //Channel 1.2 Snare Rim
     40,
-    //Channel 2.1 Tom 1
+    //Channel (Stereo) 2.1 Tom 1 & Rim
     48,
-    //Channel 2.2 Tom 1 Rim
     50,
-    //Channel 3.1 Tom 2
+    //Channel (Stereo) 3.1 Tom 2 & Rim
     45,
-    //Channel 3.2 Tom 2 RIM
     47,
-    //Channel 4.1 Tom 3 HEAD
+    //Channel (Stereo) 4.1 Tom 3 & Rim
     43,
-    //Channel 4.2 Tom 3 RIM
     58,
-    //Channel 5.1 High Hat Bow
+    //Channel (Stereo) 5.1 High Hat Edge & Bow
     46,
-    //Channel 5.2 High Hat Edge
     26,
-    //Channel 6.1 Crash 1 Bow
+    //Channel (Stereo) 6.1 Crash 1 Edge & Bow
     49,
-    //Channel 6.2 Crash 1 Edge
     55,
-    //Channel 7.1 Crash 2 Bow
+    //Channel (Stereo) 7.1 Crash 2 Edge & Edge
     57,
-    //Channel 7.2 Crash 2 Edge
     52,
-    //Channel 8.1 Ride Edge
+    //Channel (Stereo) 8.1 Ride Bow & Bell
+    53,
     59,
-    //Channel 9 Ride Bell
+    //Channel 9 Ride Edge
     53,
     //Channel 10 Kick 1
     0,
